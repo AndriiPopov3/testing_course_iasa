@@ -117,3 +117,7 @@ describe("Delete request", function(){
   }, 7000);
 
 });
+
+var TeamcityReporter = jasmineRequire.TeamcityReporter();
+window.teamcityReporter = new TeamcityReporter();
+jasmine.getEnv().addReporter(window.teamcityReporter);
