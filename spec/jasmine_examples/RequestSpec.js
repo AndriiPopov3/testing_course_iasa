@@ -1,6 +1,12 @@
 let item_id;
 let item_id2;
 
+var reporters = require('jasmine-reporters');
+var TeamCityReporter = new reporters.TeamCityReporter ({
+    savePath: __dirname,
+    consolidateAll: false
+});
+jasmine.getEnv().addReporter(TeamCityReporter)
 
 describe("Upload request", function() {
   var axios = require('axios');
