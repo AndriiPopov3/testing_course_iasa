@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.0",
-    "jasmine": "^3.6.3"
+    "jasmine": "^3.6.3",
+    "jasmine-reporters": "^2.3.2"
   }
 }
