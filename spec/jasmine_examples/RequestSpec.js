@@ -1,12 +1,6 @@
 let item_id;
 let item_id2;
-var reporters = require('jasmine-reporters');
-var teamCityReporter = new reporters.TeamCityReporter();
 
-jasmine.configureDefaultReporter(teamCityReporter);
-var nunitXmlReporter = new reporters.NUnitXmlReporter();
-
-jasmine.addReporter(nunitXmlReporter);
 
 describe("Upload request", function() {
   var axios = require('axios');
