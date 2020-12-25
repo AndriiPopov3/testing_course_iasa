@@ -14,7 +14,4 @@ describe("Our work screen", function(){
     expect(curr_url_2).toBe(curr_url_1);
   }, 10000);
   
-  //   afterAll(async function(){
-  //   await home.quitWindow();
-  // });
 });
