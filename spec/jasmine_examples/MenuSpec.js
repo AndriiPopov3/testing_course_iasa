@@ -12,7 +12,4 @@ describe("Main menu", function(){
     expect(color).toBe("rgba(118, 205, 216, 1)");
   });
 
-  // afterAll(async function(){
-  //   await home.quitWindow();
-  // });
 });
