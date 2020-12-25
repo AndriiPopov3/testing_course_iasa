@@ -20,9 +20,6 @@ describe("Cookies block", function() {
     let exists = await home.blockExisted();
     expect(exists).toBe(false);
   });
-  
-  // afterAll(async function(){
-  //   await home.quitWindow();
-  // });
+
 });
 
